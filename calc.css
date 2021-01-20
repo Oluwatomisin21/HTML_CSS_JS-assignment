@@ -1,0 +1,62 @@
+/* CSS FOR DIVISION SIGN*/
+
+span {
+    content: "\00F7";
+}
+
+
+/* CSS to the main section main-sec */
+
+.main-sec {
+    /* align-content: space-around; */
+    border: 3px solid black;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 40%;
+    padding-top: 40%;
+    background-color: rgb(216, 166, 166);
+}
+
+
+/*CSS for Input place holder*/
+
+.input-to-copy {
+    background-color: rgb(14, 5, 5);
+    grid-template-columns: 100px
+}
+
+.placeholder {
+    color: #020b13;
+}
+
+
+/*CSS for all sign*/
+
+.signs {
+    background-color: orange;
+    font-weight: bold;
+}
+
+
+/* allign and adjust all equal buttons */
+
+.num {
+    color: #000;
+    font-weight: bold;
+    background-color: azure;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 41px 41px 41px 41px;
+    grid-gap: 4px;
+    background-color: 100px #2196F3;
+    padding: 3px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
